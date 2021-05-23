@@ -1,0 +1,27 @@
+.header{
+background color: #4ab6c2;
+color: red;
+height: 80px;
+text-align: center;
+line-height: 80px;
+}
+
+
+.content{
+background color:#86c21f;
+color: white;
+height: 80px;
+text-align: center;
+line-height: 80px;
+}
+
+
+
+
+.footer{
+background color: #911c8b;
+color: white;
+height: 80px;
+text-align: center;
+line-height: 80px;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Playfair+Display:ital,wght@1,500&family=Roboto+Slab:wght@300&display=swap');
+
+
+
+
+.header{
+background-color: #4ab6c2;
+color: white;
+text-align: center;
+-webkit-box-shadow: -13px -8px 30px 11px rgba(142, 225, 0, 0.19);
+-moz-box-shadow: -13px -8px 30px 11px rgba(142, 225, 0, 0.19);
+box-shadow: -13px -8px 30px 11px rgba(142, 225, 0, 0.19);
+}
+
+
+.content{
+background-color:#026df7;
+color: white;
+text-align: center;
+width: 70%;
+margin: 0 auto;
+text-align: center;
+-webkit-box-shadow: 12px -10px 34px 0px rgba(255, 0, 214, 0.38);
+-moz-box-shadow: 12px -10px 34px 0px rgba(255, 0, 214, 0.38);
+box-shadow: 12px -10px 34px 0px rgba(255, 0, 214, 0.38);
+font-family: 'Roboto Slab', serif;
+
+}
+
+
+
+
+
+
+body{
+background-image: url('https://static.ukrinform.com/photos/2018_04/thumb_files/630_360_1524930096-6711.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.posts{
+
+
+	display: flex;S
+}
+
+.box{
+background-color: #cfaf30;
+padding: 10px;
+
+margin: 15px;
+
+border: 2px solid white;
+
+flex-grow: 1;
+
+-webkit-box-shadow: 12px -10px 34px 0px rgba(255, 0, 214, 0.38);
+-moz-box-shadow: 12px -10px 34px 0px rgba(255, 0, 214, 0.38);
+box-shadow: 12px -10px 34px 0px rgba(255, 0, 214, 0.38);
+}
+
+.box img{
+max-width: 500px;
+
+max-height: 400px; 
+
+	width: 70%;
+	max-width: 70%;
+
+}
+
+
+h1{
+color: white;
+font-family: 'Playfair Display', serif;
+
+}
+
+
+.box h1{
+
+
+	color: #c9630a;
+}
+
+
+.menu li {
+display: inline-block;
+padding:  15px 40px;
+font-size: 20px;
+font-family: 'Pattaya', sans-serif;
+
+}
+
+
+
+.menu ul {
+	list-style: none;
+	color:#2debb2;
+	text-align: center;
+}
+
+
+.menu ul:hover {
+	list-style: none;
+	background-color:#d1c9c9;
+	text-align: center;
+color:
+#1aff00;
+}
+.menu{
+
+background-color: #3d3436;
+
+}
+
+a{
+
+	color: white;
+}
