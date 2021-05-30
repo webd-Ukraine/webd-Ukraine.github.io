@@ -33,9 +33,10 @@ font-family: 'Roboto Slab', serif;
 
 
 body{
-background-image: url('https://static.ukrinform.com/photos/2018_04/thumb_files/630_360_1524930096-6711.jpg');
+background-image: url('https://media.slovoidilo.ua/media/publications/11/102698/102698-1_large.jpg');
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
+
 }
 
 .posts{
@@ -66,6 +67,12 @@ max-height: 400px;
 
 	width: 70%;
 	max-width: 70%;
+transition: 1s;
+
+}
+.box img:hover{
+
+transform: scale(1.06);
 
 }
 
@@ -101,12 +108,13 @@ font-family: 'Pattaya', sans-serif;
 }
 
 
-.menu ul:hover {
+.menu li:hover {
 	list-style: none;
 	background-color:#d1c9c9;
 	text-align: center;
-color:
-#1aff00;
+transform: scale(1.05);
+transition: 1s
+color: #1aff00;
 }
 .menu{
 
@@ -117,4 +125,21 @@ background-color: #3d3436;
 a{
 
 	color: white;
+}
+
+
+.menu2 li {
+display: inline-block;
+padding:  15px 40px;
+font-size: 20px;
+font-family: 'Pattaya', sans-serif;
+
+}
+
+
+
+.menu2 ul {
+	list-style: none;
+	color:#75aaff;
+	text-align: center;
 }
